@@ -1,2 +1,13 @@
-
-<h1>Hello World!</h1>
+<section class="posts">
+    <% page.posts.each( function (post) {%>
+        <div class="post-title">
+            <%= post.title%>
+        </div>
+        <div class="post-content">
+            <%- post.excerpt %>
+        </div>
+        <div class="post-meta">
+            <span class="post-time"><%- date(post.date, "YYYY-MM-DD")%></span>
+        </div>
+    <% }) %>
+</section>
