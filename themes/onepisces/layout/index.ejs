@@ -1,7 +1,8 @@
 <section class="posts">
-    <% page.posts.each( function (post) {%>
+    <% site.posts.each( function (post) {%>
+    <div class="post">
         <div class="post-title">
-            <%= post.title%>
+            <a class="post-title-link" href="<%- url_for(post.path) %>"><%= post.title %></a>
         </div>
         <div class="post-content">
             <%- post.excerpt %>
@@ -9,5 +10,6 @@
         <div class="post-meta">
             <span class="post-time"><%- date(post.date, "YYYY-MM-DD")%></span>
         </div>
+    </div>
     <% }) %>
 </section>
