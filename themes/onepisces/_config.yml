@@ -1,0 +1,18 @@
+
+# html lang
+language: cn
+
+# main menu navigation
+menu:
+  home: /
+  categories: /categories
+  tags: /tags
+  archives: /archives
+
+# stylesheets loaded in the <head>
+stylesheets:
+- /css/onepisces.css
+
+# scripts loaded in the end of the body
+scripts:
+- /js/onepisces.js
