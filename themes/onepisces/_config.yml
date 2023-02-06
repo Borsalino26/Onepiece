@@ -8,6 +8,7 @@ menu:
   categories: /categories
   tags: /tags
   archives: /archives
+  about: /about
 
 # stylesheets loaded in the <head>
 stylesheets:
