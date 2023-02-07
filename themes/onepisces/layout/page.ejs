@@ -1,7 +1,3 @@
-<% if (is_current(theme.menu.categories)) { %>
-<%- partial('_partial/category') %>
-<% } else if (is_current(theme.menu.tags)){ %>
-<%- partial('_partial/tags') %>
-<% } else { %>
+<% if (is_current(theme.menu.about)) { %>
 <%- partial('_partial/custom') %>
 <% } %>
