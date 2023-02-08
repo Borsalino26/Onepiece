@@ -4,11 +4,21 @@ language: cn
 
 # main menu navigation
 menu:
-  home: /
-  categories: /categories
-  tags: /tags
-  archives: /archives
-  about: /about
+  home:
+    path: /
+    name: "首页"
+  categories:
+    path: /categories
+    name: "分类"
+  tags:
+    path: /tags
+    name: "标签"
+  archives:
+    path: /archives
+    name: "归档"
+  about:
+    path: /about
+    name: "关于"
 
 # stylesheets loaded in the <head>
 stylesheets:
