@@ -1,57 +1,97 @@
 body {
-  background-color: #f2f2f2;
+  background-color: #232425;
   font-size: 1.25rem;
   line-height: 1.5;
+  margin: 0;
 }
 .container {
-  max-width: 960px;
+  min-width: 100%;
+  min-height: 100%;
   margin: 0 auto;
+}
+.archive {
+  margin: 1em;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+.archive .post-archive .post-item {
+  margin: 5px 0;
+}
+.archive .post-archive .post-item .post-date {
+  display: inline-block;
+  margin-right: 10px;
+  color: #bababa;
+}
+.archive .post-archive .post-item .post-title {
+  color: #368ccb;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #e6e0d7;
+  background-color: #111;
 }
 .header {
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
+  padding: 10px 50px;
+  background-color: #111;
 }
-.header .title .logo {
-  color: #aaa;
-  font-size: 2em;
-  font-family: "Comic Sans MS", cursive, LiSu, sans-serif;
+.header .title-div .title {
+  color: #e6e0d7;
+  font-size: 1.5em;
   text-decoration: none;
 }
 .header .menu {
   margin: 0;
-  padding: 0;
+  padding-left: 20px;
 }
 .header .menu .menu-item {
   display: inline-block;
   margin-right: 10px;
 }
 .header .menu .menu-item-link {
-  color: #aaa;
+  color: #e6e0d7;
   text-decoration: none;
 }
 .header .menu .menu-item-link:hover {
-  color: #368ccb;
+  color: #455eb2;
 }
-.posts .post {
-  margin: 1em auto;
-  padding: 30px 50px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  box-shadow: 0 0 2px #ddd;
+.posts-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 3rem;
+  max-width: 70%;
+  min-height: 66rem;
+  background-color: #1a1a1a;
+  color: #ccd8ff;
+  box-shadow: 0 1rem 2rem 1rem #000;
 }
-.posts .post:first-child {
-  margin-top: 0;
+.posts-div .posts-divider {
+  color: #ccd8ff;
+  border-left: 30rem solid #ccd8ff;
+  border-right: 30rem solid #ccd8ff;
+  line-height: 2px;
+  margin: 3rem 0;
+  padding: 0 2rem 0;
+  text-align: center;
 }
-.posts .post-title {
+.posts-div .post {
+  padding: 1.5rem 2rem;
+  width: 60rem;
+  height: 15rem;
+  background-color: #232425;
+  border-radius: 1.5rem;
+  box-shadow: 0 0.3rem 2rem 0.3rem #101010;
+}
+.posts-div .post .post-title {
   font-size: 1.5em;
 }
-.posts .post-title .post-title-link {
-  color: #368ccb;
+.posts-div .post .post-title .post-title-link {
+  color: #245ed8;
 }
-.posts .post-content a {
-  color: #368ccb;
-}
-.posts .post-meta {
-  color: #bababa;
+.posts-div .post .post-content a:-webkit-any-link {
+  color: #245ed8;
 }

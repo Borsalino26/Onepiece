@@ -1,12 +1,12 @@
 <header class="header">
-    <div class="title">
-        <a href="<%= url_for() %>" class="logo"><%= config.title%></a>
+    <div class="title-div">
+        <a href="<%= url_for() %>" class="title"><%= config.title%></a>
     </div>
     <nav class="navbar">
         <ul class="menu">
             <% for (name in theme.menu) {%>
             <li class="menu-item">
-                <a href="<%- url_for(theme.menu[name])%>" class="menu-item-link"><%= name %></a>
+                <a href="<%- url_for(theme.menu[name].path)%>" class="menu-item-link"><%= theme.menu[name].name %></a>
             </li>
             <% } %>
         </ul>
