@@ -1,5 +1,5 @@
 body {
-  background-color: #242328;
+  background-color: #232425;
   font-size: 1.25rem;
   line-height: 1.5;
   margin: 0;
@@ -58,32 +58,40 @@ body {
 .header .menu .menu-item-link:hover {
   color: #455eb2;
 }
-.posts {
+.posts-div {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 2rem 3rem;
   max-width: 70%;
   min-height: 66rem;
   background-color: #1a1a1a;
+  color: #ccd8ff;
+  box-shadow: 0 1rem 2rem 1rem #000;
 }
-.posts .post {
-  padding: 3rem;
+.posts-div .posts-divider {
+  color: #ccd8ff;
+  border-left: 30rem solid #ccd8ff;
+  border-right: 30rem solid #ccd8ff;
+  line-height: 2px;
+  margin: 3rem 0;
+  padding: 0 2rem 0;
+  text-align: center;
+}
+.posts-div .post {
+  padding: 1.5rem 2rem;
   width: 60rem;
   height: 15rem;
-  background-color: #fefdf9;
+  background-color: #232425;
+  border-radius: 1.5rem;
+  box-shadow: 0 0.3rem 2rem 0.3rem #101010;
 }
-.posts .post:first-child {
-  margin-top: 0;
-}
-.posts .post-title {
+.posts-div .post .post-title {
   font-size: 1.5em;
 }
-.posts .post-title .post-title-link {
+.posts-div .post .post-title .post-title-link {
   color: #245ed8;
 }
-.posts .post-content a {
+.posts-div .post .post-content a:-webkit-any-link {
   color: #245ed8;
-}
-.posts .post-meta {
-  color: #b9baec;
 }
