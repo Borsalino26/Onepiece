@@ -11,8 +11,8 @@ body {
 }
 .archive {
   margin: 1em;
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: #232425;
+  color: #ccd8ff;
 }
 .archive .post-archive .post-item {
   margin: 5px 0;
@@ -20,16 +20,12 @@ body {
 .archive .post-archive .post-item .post-date {
   display: inline-block;
   margin-right: 10px;
-  color: #bababa;
-}
-.archive .post-archive .post-item .post-title {
-  color: #368ccb;
 }
 .footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #e6e0d7;
+  color: #ccd8ff;
   background-color: #111;
 }
 .header {
@@ -37,9 +33,10 @@ body {
   align-items: baseline;
   padding: 10px 50px;
   background-color: #111;
+  margin: 0 0 1rem 0;
 }
 .header .title-div .title {
-  color: #e6e0d7;
+  color: #ccd8ff;
   font-size: 1.5em;
   text-decoration: none;
 }
@@ -52,13 +49,44 @@ body {
   margin-right: 10px;
 }
 .header .menu .menu-item-link {
-  color: #e6e0d7;
+  color: #ccd8ff;
   text-decoration: none;
 }
 .header .menu .menu-item-link:hover {
   color: #455eb2;
 }
-.posts-div {
+.index-box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.index-box .index-side-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 4rem;
+  max-width: 30%;
+  color: #ccd8ff;
+}
+.index-box .index-side-bar .master-feature-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.index-box .index-side-bar .master-feature-div .avatar {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+}
+.index-box .index-side-bar .master-feature-div .master-name {
+  margin: 0.5rem auto 0;
+}
+.index-box .index-side-bar .master-feature-div .master-motto {
+  font-size: 1rem;
+  margin: 0.5rem auto 0;
+}
+.index-box .posts-div {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -67,9 +95,9 @@ body {
   min-height: 66rem;
   background-color: #1a1a1a;
   color: #ccd8ff;
-  box-shadow: 0 1rem 2rem 1rem #000;
+  box-shadow: 0 1rem 1.5rem 0.5rem #101010;
 }
-.posts-div .posts-divider {
+.index-box .posts-div .posts-divider {
   color: #ccd8ff;
   border-left: 30rem solid #ccd8ff;
   border-right: 30rem solid #ccd8ff;
@@ -78,7 +106,7 @@ body {
   padding: 0 2rem 0;
   text-align: center;
 }
-.posts-div .post {
+.index-box .posts-div .post {
   padding: 1.5rem 2rem;
   width: 60rem;
   height: 15rem;
@@ -86,12 +114,12 @@ body {
   border-radius: 1.5rem;
   box-shadow: 0 0.3rem 2rem 0.3rem #101010;
 }
-.posts-div .post .post-title {
+.index-box .posts-div .post .post-title {
   font-size: 1.5em;
 }
-.posts-div .post .post-title .post-title-link {
+.index-box .posts-div .post .post-title .post-title-link {
   color: #245ed8;
 }
-.posts-div .post .post-content a:-webkit-any-link {
+.index-box .posts-div .post .post-content a:-webkit-any-link {
   color: #245ed8;
 }

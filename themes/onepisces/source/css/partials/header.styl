@@ -1,10 +1,13 @@
+@import "../config.styl"
+
 .header {
   display: flex
   align-items: baseline
   padding: 10px 50px
-  background-color #111111
+  background-color $bgColorHeaderFooter
+  margin 0 0 1rem 0
   .title-div .title {
-    color: #E6E0D7
+    color: $fontColor
     font-size: 1.5em
     text-decoration: none
   }
@@ -16,10 +19,10 @@
       margin-right: 10px;
     }
     .menu-item-link {
-      color: #E6E0D7;
+      color: $fontColor;
       text-decoration: none;
       &:hover {
-        color: #455EB2;
+        color $fontHoverColor;
       }
     }
   }

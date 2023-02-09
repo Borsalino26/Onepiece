@@ -1,17 +1,30 @@
-<section class="posts-div">
-    <h2 class="posts-divider">最新文章</h2>
-    <% site.posts.each( function (post) {%>
-    <div class="post">
-        <div class="post-title">
-            <a class="post-title-link" href="<%- url_for(post.path) %>"><%= post.title %></a>
+<div class="index-box">
+    <div class="index-side-bar">
+        <div class="master-feature-div">
+            <img src="images/avatar.jpg" class="avatar">
+            <p class="master-name">十驾</p>
+            <p class="master-motto">不积跬步，无以至千里</p>
         </div>
-        <div class="post-content">
-            <%- post.excerpt %>
+        <div class="site-feature-div">
+
         </div>
-        <div class="post-meta">
-            <span class="post-time"><%- date(post.date, "YYYY-MM-DD")%></span>
-        </div>
+        <div class="func-div"></div>
     </div>
-    <% }) %>
-</section>
+    <section class="posts-div">
+        <h2 class="posts-divider">最新文章</h2>
+        <% site.posts.each( function (post) {%>
+        <div class="post">
+            <div class="post-title">
+                <a class="post-title-link" href="<%- url_for(post.path) %>"><%= post.title %></a>
+            </div>
+            <div class="post-content">
+                <%- post.excerpt %>
+            </div>
+            <div class="post-meta">
+                <span class="post-time"><%- date(post.date, "YYYY-MM-DD")%></span>
+            </div>
+        </div>
+        <% }) %>
+    </section>
+</div>
 <%- partial('_partial/paginator')%>
