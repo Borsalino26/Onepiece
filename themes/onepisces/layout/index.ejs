@@ -15,7 +15,7 @@
         <% site.posts.each( function (post) {%>
         <div class="post">
             <div class="post-title">
-                <a class="post-title-link" href="<%- url_for(post.path) %>"><%= post.title %></a>
+                <a href="<%- url_for(post.path) %>"><%= post.title %></a>
             </div>
             <div class="post-content">
                 <%- post.excerpt %>

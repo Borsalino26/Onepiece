@@ -1,8 +1,16 @@
 body {
-  background-color: #232425;
+  background-color: #151617;
+  color: #d3d7da;
   font-size: 1.25rem;
   line-height: 1.5;
   margin: 0;
+}
+body a {
+  color: #7c7c81;
+  text-decoration: none;
+}
+body a:hover {
+  text-decoration: underline;
 }
 .container {
   min-width: 100%;
@@ -11,8 +19,8 @@ body {
 }
 .archive {
   margin: 1em;
-  background-color: #232425;
-  color: #ccd8ff;
+  background-color: #151617;
+  color: #d3d7da;
 }
 .archive .post-archive .post-item {
   margin: 5px 0;
@@ -25,7 +33,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #ccd8ff;
+  color: #d3d7da;
   background-color: #111;
 }
 .header {
@@ -36,7 +44,7 @@ body {
   margin: 0 0 1rem 0;
 }
 .header .title-div .title {
-  color: #ccd8ff;
+  color: #d3d7da;
   font-size: 1.5em;
   text-decoration: none;
 }
@@ -49,11 +57,11 @@ body {
   margin-right: 10px;
 }
 .header .menu .menu-item-link {
-  color: #ccd8ff;
+  color: #d3d7da;
   text-decoration: none;
 }
 .header .menu .menu-item-link:hover {
-  color: #455eb2;
+  color: #878c8f;
 }
 .index-box {
   display: flex;
@@ -67,7 +75,6 @@ body {
   align-items: center;
   margin: 2rem 4rem;
   max-width: 30%;
-  color: #ccd8ff;
 }
 .index-box .index-side-bar .master-feature-div {
   display: flex;
@@ -76,8 +83,8 @@ body {
 }
 .index-box .index-side-bar .master-feature-div .avatar {
   border-radius: 50%;
-  width: 160px;
-  height: 160px;
+  width: 120px;
+  height: 120px;
 }
 .index-box .index-side-bar .master-feature-div .master-name {
   margin: 0.5rem auto 0;
@@ -94,13 +101,11 @@ body {
   max-width: 70%;
   min-height: 66rem;
   background-color: #1a1a1a;
-  color: #ccd8ff;
   box-shadow: 0 1rem 1.5rem 0.5rem #101010;
 }
 .index-box .posts-div .posts-divider {
-  color: #ccd8ff;
-  border-left: 30rem solid #ccd8ff;
-  border-right: 30rem solid #ccd8ff;
+  border-left: 30rem solid #d3d7da;
+  border-right: 30rem solid #d3d7da;
   line-height: 2px;
   margin: 3rem 0;
   padding: 0 2rem 0;
@@ -110,16 +115,10 @@ body {
   padding: 1.5rem 2rem;
   width: 60rem;
   height: 15rem;
-  background-color: #232425;
+  background-color: #1a1a1a;
   border-radius: 1.5rem;
   box-shadow: 0 0.3rem 2rem 0.3rem #101010;
 }
 .index-box .posts-div .post .post-title {
   font-size: 1.5em;
-}
-.index-box .posts-div .post .post-title .post-title-link {
-  color: #245ed8;
-}
-.index-box .posts-div .post .post-content a:-webkit-any-link {
-  color: #245ed8;
 }
