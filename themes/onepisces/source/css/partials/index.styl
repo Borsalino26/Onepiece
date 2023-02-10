@@ -1,4 +1,4 @@
-@import "./config.styl"
+@import "../config.styl"
 
 .index-box {
   display flex
@@ -11,15 +11,14 @@
     align-items center
     margin 2rem 4rem
     max-width 30%
-    color $fontColor
     .master-feature-div {
       display flex
       flex-direction column
       align-items center
       .avatar {
         border-radius 50%
-        width 160px
-        height 160px
+        width $avatarLen
+        height $avatarLen
       }
       .master-name {
         margin 0.5rem auto 0
@@ -38,10 +37,8 @@
     max-width 70%
     min-height 66rem
     background-color $bgColorPostsDiv;
-    color $fontColor
     box-shadow 0 1rem 1.5rem 0.5rem $boxShadowColor
     .posts-divider {
-      color $fontColor
       border-left 30rem solid $fontColor
       border-right 30rem solid $fontColor
       line-height 2px
@@ -53,19 +50,11 @@
       padding 1.5rem 2rem
       width 60rem
       height 15rem
-      background-color: $bgColor;
+      background-color: $bgColorPostsDiv;
       border-radius 1.5rem
       box-shadow 0 0.3rem 2rem 0.3rem $boxShadowColor
       .post-title {
-        font-size: 1.5em;
-        .post-title-link {
-          color $fontHyperLinkColor;
-        }
-      }
-      .post-content {
-        a:-webkit-any-link {
-          color $fontHyperLinkColor;
-        }
+        font-size 1.5em
       }
     }
   }
