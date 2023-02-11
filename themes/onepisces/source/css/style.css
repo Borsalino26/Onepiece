@@ -75,7 +75,7 @@ body a:hover {
   align-items: center;
   margin: 2rem 4rem;
   max-width: 30%;
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 .index-box .index-side-bar .master-feature-div {
   display: flex;
@@ -84,12 +84,12 @@ body a:hover {
 }
 .index-box .index-side-bar .master-feature-div .avatar {
   border-radius: 50%;
-  width: 120px;
-  height: 120px;
+  width: 160px;
+  height: 160px;
 }
 .index-box .index-side-bar .master-feature-div .master-name {
-  font-size: 1.25rem;
-  margin: 0.5rem auto 0;
+  font-size: 1.75rem;
+  margin: 1rem auto 0;
 }
 .index-box .index-side-bar .master-feature-div .master-motto {
   margin: 0.5rem auto 0;
