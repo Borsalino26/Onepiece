@@ -75,6 +75,7 @@ body a:hover {
   align-items: center;
   margin: 2rem 4rem;
   max-width: 30%;
+  font-size: 1rem;
 }
 .index-box .index-side-bar .master-feature-div {
   display: flex;
@@ -87,10 +88,10 @@ body a:hover {
   height: 120px;
 }
 .index-box .index-side-bar .master-feature-div .master-name {
+  font-size: 1.25rem;
   margin: 0.5rem auto 0;
 }
 .index-box .index-side-bar .master-feature-div .master-motto {
-  font-size: 1rem;
   margin: 0.5rem auto 0;
 }
 .index-box .posts-div {
@@ -124,6 +125,10 @@ body a:hover {
 }
 .index-box .posts-div .posts-card .post-title {
   font-size: 1.5em;
+}
+.website-comment-area {
+  margin: 5rem auto;
+  max-width: 80%;
 }
 .post-article-div {
   margin: 0 12rem;

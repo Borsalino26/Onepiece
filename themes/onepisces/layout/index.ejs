@@ -27,4 +27,8 @@
         <% }) %>
     </section>
 </div>
+<% if(theme.valine.enable && theme.valine.appID && theme.valine.appKey) { %>
+    <div id="vcomments" class="website-comment-area"></div>
+    <%- partial("_partial/valine_comment")%>
+<% } %>
 <%- partial('_partial/paginator')%>
