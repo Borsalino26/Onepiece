@@ -111,7 +111,10 @@ body a:hover {
   padding: 0 2rem 0;
   text-align: center;
 }
-.index-box .posts-div .post {
+.index-box .posts-div .posts-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   padding: 1.5rem 2rem;
   width: 60rem;
   height: 15rem;
@@ -119,6 +122,13 @@ body a:hover {
   border-radius: 1.5rem;
   box-shadow: 0 0.3rem 2rem 0.3rem #101010;
 }
-.index-box .posts-div .post .post-title {
+.index-box .posts-div .posts-card .post-title {
   font-size: 1.5em;
+}
+.post-article-div {
+  margin: 0 9rem;
+  padding: 0 3rem;
+}
+.post-article-div img {
+  max-width: 80%;
 }

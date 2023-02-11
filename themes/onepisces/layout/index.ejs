@@ -13,7 +13,7 @@
     <section class="posts-div">
         <h2 class="posts-divider">最新文章</h2>
         <% site.posts.each( function (post) {%>
-        <div class="post">
+        <div class="posts-card">
             <div class="post-title">
                 <a href="<%- url_for(post.path) %>"><%= post.title %></a>
             </div>
