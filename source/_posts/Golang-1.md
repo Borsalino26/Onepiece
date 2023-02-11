@@ -10,7 +10,7 @@ tags:
 > * 编写并运行第一个Go程序
 <!-- more -->
 ## 1. Go开发包下载
-go语言下载地址：https://go.dev/dl/
+go语言下载地址：[https://go.dev/dl/](https://go.dev/dl/)
 * 直接下载最新版本go1.20
 ![img.png](../images/Golang-1/2023-02-10_233804.png)
 
@@ -37,7 +37,7 @@ go version go1.20 windows/amd64
 ## 3. 编辑器安装
 这里我们使用VSCode，有条件的朋友也可以选择Goland
 ### 3.1 下载安装VSCode
-* VSCode下载地址：code.visualstudio.com<br>
+* VSCode下载地址：[code.visualstudio.com](code.visualstudio.com)<br>
 
 根据开发环境选择相应的版本安装即可，过程同之前Go的安装，不再赘述
 ![](../images/Golang-1/2023-02-11_120156.png)
