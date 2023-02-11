@@ -10,4 +10,16 @@
             <%- page.content %>
         </div>
     </article>
+    <footer class="post-article-footer">
+        <div class="post-read-count">
+            <span id="<%= url_for(page.path)%>" class="leancloud_visitors" data-flag-title="<%- page.title%>">
+                <span class="post-meta-item-text">阅读量 </span>
+                <span class="leancloud-visitors-count">0</span>
+            </span>
+        </div>
+    </footer>
+    <% if(theme.valine.enable && theme.valine.appID && theme.valine.appKey) { %>
+        <div id="vcomments" class="post-comment-area"></div>
+        <%- partial("_partial/valine_comment")%>
+    <% } %>
 </div>
