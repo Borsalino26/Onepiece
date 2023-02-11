@@ -126,9 +126,27 @@ body a:hover {
   font-size: 1.5em;
 }
 .post-article-div {
-  margin: 0 9rem;
+  margin: 0 12rem;
   padding: 0 3rem;
 }
 .post-article-div img {
-  max-width: 80%;
+  max-width: 70%;
+}
+.post-article-div .post {
+  padding: 1rem 3rem;
+}
+.post-article-div .post-article-footer::before {
+  content: "";
+  width: 100%;
+  height: 0.1rem;
+  background: #878c8f;
+  display: block;
+}
+.post-article-div .post-article-footer .post-read-count {
+  text-align: right;
+  font-size: 1rem;
+  margin: 0.2rem 1rem 0;
+}
+.post-article-div .post-comment-area {
+  margin: 5rem auto;
 }

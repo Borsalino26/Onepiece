@@ -1,7 +1,29 @@
+@import "../config.styl"
+
 .post-article-div {
-  margin 0 9rem
+  margin 0 12rem
   padding 0 3rem
   img {
-    max-width 80%
+    max-width 70%
+  }
+  .post {
+    padding 1rem 3rem
+  }
+  .post-article-footer::before {
+      content ""
+      width 100%
+      height 0.1rem
+      background $fontHoverColor
+      display block
+  }
+  .post-article-footer {
+    .post-read-count {
+      text-align right
+      font-size 1rem
+      margin 0.2rem 1rem 0
+    }
+  }
+  .post-comment-area {
+    margin 5rem auto
   }
 }

@@ -27,3 +27,14 @@ stylesheets:
 # scripts loaded in the end of the body
 scripts:
 - /js/onepisces.js
+
+# valine评论系统：valine.js.org
+valine:
+  enable: true
+  appID: 'rVJdla4iZQeE8zD3UX0W2NO2-gzGzoHsz'
+  appKey: 'Komh0dST8Uw6KFjAP7CpCb7Y'
+  placeholder: '发条评论吧'
+  pageSize: 10
+  visitor: true
+  recordIP: true
+  enableQQ: false
