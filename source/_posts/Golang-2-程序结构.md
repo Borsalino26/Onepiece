@@ -1,6 +1,6 @@
 ---
 title: Golang：2. 程序结构
-date: 2023-02-10 22:11:57
+date: 2023-02-12 16:11:57
 categories:
     - Golang
 tags:
