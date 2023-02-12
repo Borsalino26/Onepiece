@@ -117,6 +117,7 @@ body a:hover {
   flex-direction: column;
   justify-content: space-around;
   padding: 1.5rem 2rem;
+  margin: 1.5rem auto;
   width: 60rem;
   height: 15rem;
   background-color: #1a1a1a;
